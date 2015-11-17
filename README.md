@@ -47,7 +47,7 @@
 		TaskQueue.TASK_QUEUE.destroyAllTask(this);
 	}
 上述代码不添加，会抛出异常。
-居然的属性个功能，可以查看类NetworkPhotoTask里面的参数来使用,里面的注释全都是中文，如果出现乱码，需要把代码转换成UTF-8。
+所有的属性功能，可以查看类NetworkPhotoTask里面的参数来使用,里面的注释全都是中文，如果出现乱码，需要把代码转换成UTF-8。
 
 </br>
 如果发现程序有bug或者更好的建议,可以和我联系了哦，QQ:382034324
