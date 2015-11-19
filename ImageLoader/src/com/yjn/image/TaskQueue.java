@@ -87,6 +87,7 @@ public enum TaskQueue {
         mKey = key;
         Object objects[] = getImageViewNetwork(key).toArray();
         for (int i = 0; i < objects.length; i++) {
+        	((ImageViewNetwork) objects[i]).stopTask();
             ((ImageViewNetwork) objects[i]).startTask();
         }
     }
